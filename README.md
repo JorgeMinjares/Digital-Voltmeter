@@ -1,8 +1,8 @@
 # **Digital-Voltmeter**
 ## **Description**
-This program will emulate a `Digital Voltmeter` using the *MSP432* as the microcontroller unit (MCU). Additionally, the system uses the ADC peripheral with a 14-bit resolution to ensure precise readings. The `Digital Voltmeter` reads an analog input and converts into a voltage reading, which is displayed onto an *Liquid Crystal Display* (LCD). The software will be sampling every `100ms` (`10 Hz`) and update the LCD with a **98% accuracy**. 
+This program will emulate a `Digital Voltmeter` using the *MSP432* as the microcontroller unit (MCU). Additionally, the system uses the *Analog to Digital Converter* (ADC) peripheral with a 14-bit resolution to ensure precise readings. The `Digital Voltmeter` reads an analog input and converts into a voltage reading, which is displayed onto an *Liquid Crystal Display* (LCD). The software will be sampling every *100ms* (*10 Hz*) and update the LCD with a **98%** accuracy. 
 
-## **Pinout**
+## **MSP432 Pinout**
 ![image](https://user-images.githubusercontent.com/60948298/146273491-d2079ae0-385a-4f9a-ac03-24f95911efea.png)
 - Texas Instrument
 
@@ -36,7 +36,7 @@ This program will emulate a `Digital Voltmeter` using the *MSP432* as the microc
 |lcdSetInt(integer, c, r); | Print a integer starting at c, column and r, row. |
 |delay_ms(x); | Delay for x milliseconds. |
 
-## **Circuit** 
+## **Hardware** 
 <img src="https://user-images.githubusercontent.com/96082677/147328936-63011623-c858-46fc-a448-bdfa4a5c8497.jpg" width="500" height="400">
 
 ## **Author** 
