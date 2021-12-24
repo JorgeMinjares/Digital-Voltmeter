@@ -1,8 +1,9 @@
+# Example .gitignore from https://github.com/progress/CCS/blob/master/.gitignore
+
 #########
 ## OE App
 ########
 *.r
-
 
 #################
 ## Eclipse

@@ -1,8 +1,6 @@
 /*********************************************************************
 LCD Driver Functions
 
-by: Elliott Gurrola
-
 	LCD Pinouts
 
 	Pin 1	Ground
@@ -36,13 +34,6 @@ by: Elliott Gurrola
 		- void trigger_EN();
 
 	*** DELAY FUNCTION ASSUMES 1 MHz CLOCK ***
-
-
-Modified on: Apr 15, 2013
-by: Luiz (Luis Carlos Bañuelos-Chacon)
-
-Modified on: May 24, 2013
-by: Elias N Jaquez
 *********************************************************************/
 
 #ifndef _LCD_LIB_H_
