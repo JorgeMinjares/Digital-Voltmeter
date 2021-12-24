@@ -36,10 +36,9 @@ This program will emulate a voltmeter using the MSP432. In this program ADC will
 |lcdSetInt(integer, c, r); | Print a integer starting at c, column and r, row. |
 |delay_ms(x); | Delay for x milliseconds. |
 
-## Circuit 
+## **Circuit** 
 <img src="https://user-images.githubusercontent.com/96082677/147328936-63011623-c858-46fc-a448-bdfa4a5c8497.jpg" width="500" height="400">
 
-
 ## **Author** 
-- Jorge Minjares :zap:
+- [Jorge Minjares](https://github.com/JorgeMinjares) :zap:
     - Bachelor of Science in Electrical Engineering
