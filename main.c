@@ -68,7 +68,7 @@ void main(void)
 void TA0_0_IRQHandler(void)
 {
     // runs every 20ms * 5 -> 100ms
-    ADC14->CTL0 |= ADC14_CTL0_ENC | ADC14_CTL0_SC; // Start ADC use
+    ADC14->CTL0 |= ADC14_CTL0_ENC | ADC14_CTL0_SC; // start conversion and enable conversion
     TIMER_A0->CCTL[0] &= ~(TIMER_A_CCTLN_CCIFG);   // Clear Timer_A0 Interrupt Flag
 }
 
